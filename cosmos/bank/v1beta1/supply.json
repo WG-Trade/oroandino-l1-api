@@ -1,12 +1,1 @@
-{
-  "supply": [
-    {
-      "denom": "uoro",
-      "amount": "500000000000"
-    }
-  ],
-  "pagination": {
-    "next_key": null,
-    "total": "1"
-  }
-}
+{"supply":[{"denom":"uoro","amount":"500000000000"}],"pagination":{"next_key":null,"total":"1"}}
