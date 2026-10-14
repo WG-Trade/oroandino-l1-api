@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>OroAndino L1 API</title></head>
+<body>
+<pre id="supply"></pre>
+<script>
+const data = {
+  "chain_id": "oroandino-1",
+  "denom": "uoro",
+  "symbol": "ORO",
+  "decimals": 6,
+  "max_supply": "500000",
+  "total_supply": "500000",
+  "circulating_supply": "25000",
+  "total_supply_api": "https://wg-trade.github.io/oroandino-l1-api/total.json",
+  "circulating_supply_api": "https://wg-trade.github.io/oroandino-l1-api/circulating.json",
+  "bech32_prefix": "oro",
+  "github": "https://github.com/WG-Trade/Oroandino-Portal-",
+  "cosmos_bank_v1beta1": "./cosmos/bank/v1beta1/bank/balances/oro1..."
+};
+document.getElementById('supply').textContent = JSON.stringify(data, null, 2);
+</script>
+</body>
+  </html>
